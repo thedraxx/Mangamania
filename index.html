@@ -1,244 +1,124 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
-  <head>
-
-    <meta charset="UTF-8" />
-
-    <meta
-
-      name="viewport"
-
-      content="width=device-width, initial-scale=1"
-
-      &amp;gt;
-
-    />
-
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <title class="titulo">Mangamania</title>
-
-    <link rel="stylesheet" href="stylesheet.css" />
-
-    <script src="js/jquery.js"></script>
-
-    <script src="js/jquery.dataTables.min.js"></script>
-
-    <title>icono</title>
-
-    <link rel="icon" type="image/jpg" href="logo.png" />
-
-  </head>
-
-
-
-  <body class="Data">
-
-    <header class="header">
-
-      <div class="container logo-nav-container">
-
-        <a href="index.html" class="logo"></a>
-
-
-
-        <body class="superponer">
-
-          <header class="xd">
-
-            <input type="search" id="input-search" placeholder="Buscar aqui" />
-
-            <div class="content-search">
-
-              <div class="content-table">
-
-                <table id="table">
-
-                  <thead>
-
-                    <tr>
-
-                      <td></td>
-
-                    </tr>
-
-                  </thead>
-
-                  <tbody>
-
-                    <tr>
-
-                      <td><a href="Kaguya.html">Kaguya-sama:Love is war</a></td>
-
-                    </tr>
-
-
-
-                    <tr>
-
-                      <td>
-
-                        <a href="Nagatoro.html"
-
-                          >Please don't bully me Nagatoro</a
-
-                        >
-
-                      </td>
-
-                    </tr>
-
-
-
-                    <tr>
-
-                      <td><a href="Komi.html">Komi can't communicate</a></td>
-
-                    </tr>
-
-
-
-                    <tr>
-
-                      <td>
-
-                        <a href="Takagi.html">Teasing Master Takagi-san</a>
-
-                      </td>
-
-                    </tr>
-
-
-
-                    <tr>
-
-                      <td>
-
-                        <a href="jojo.html"
-
-                          >Jojo's Bizzarre adventure Parte 4</a
-
-                        >
-
-                      </td>
-
-                    </tr>
-
-
-
-                    <tr>
-
-                      <td><a href="spyxfamily.html">SpyxFamily</a></td>
-
-                    </tr>
-
-                  </tbody>
-
-                </table>
-
-              </div>
-
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" &amp;gt; />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title class="titulo">Mangamania</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <title>icono</title>
+  <link rel="icon" type="image/jpg" href="logo.png" />
+</head>
+
+<body class="Data">
+  <header class="header">
+    <div class="container logo-nav-container">
+      <a href="index.html" class="logo"></a>
+
+      <body class="superponer">
+        <header class="xd">
+          <input type="search" id="input-search" placeholder="Buscar Aqui" />
+          <div class="content-search">
+            <div class="content-table">
+              <table id="table">
+                <thead>
+                  <tr>
+                    <td></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="Kaguya.html">Kaguya-sama:Love is war</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="Nagatoro.html">Please don't bully me Nagatoro</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="Komi.html">Komi can't communicate</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="Takagi.html">Teasing Master Takagi-san</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="jojo.html">Jojo's Bizzarre adventure Parte 4</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><a href="spyxfamily.html">SpyxFamily</a></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
+        </header>
+        <script src="js/search.js"></script>
+      </body>
 
-          </header>
+      <nav class="navigation">
+        <ul class="show">
+          <li class="submenu">
+            <img src="imagen/cart.png" class="img-carrito">
+            <div id="carrito">
+              <table id="lista-carrito" class="u-full-width">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+            </div>
+          </li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">novedades</a></li>
+          <li><a href="contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-          <script src="js/search.js"></script>
-
-        </body>
-
-
-
-        <nav class="navigation">
-
-          <ul class="show">
-
-            <li><a href="index">Inicio</a></li>
-
-            <li><a href="#">novedades</a></li>
-
-            <li><a href="contacto.html">contacto</a></li>
-
-          </ul>
-
-        </nav>
-
-      </div>
-
-    </header>
-
-
-
-    <main class="main">
-
-      <div class="banner"></div>
-
-
-
-      <div class="contenedor-galeria">
-
-        <a title="Komisan" href="Komi.html"
-
-          ><img srcset="Komisan.jpg" class="galeria__img" />
-
-          <h2 class="nombres">Komi can't comunicate #1</h2>
-
-        </a>
-
-        <a title="Nagatoro " href="Nagatoro.html"
-
-          ><img srcset="Nagatoro.jpg" class="galeria__img" />
-
-          <h2 class="nombres">Please Don't Bully me Nagatoro #9</h2></a
-
-        >
-
-        <a title="Takagi" href="Takagi.html"
-
-          ><img srcset="Takagisan.jpg" class="galeria__img" />
-
-          <h2 class="nombres">Teasing Master Takagi-san #1</h2>
-
-          <</a
-
-        >
-
-        <a title="Kaguya" href="Kaguya.html"
-
-          ><img srcset="kaguya.jpg" class="galeria__img" />
-
-          <h2 class="nombres">Kaguya-sama: Love is war #18</h2>
-
-          <</a
-
-        >
-
-        <a title="Jojos" href="jojo.html"
-
-          ><img srcset="jojo.jpg" class="galeria__img" />
-
-          <h2 class="nombres">Jojo's Bizzarre adventure #9</h2>
-
-          <</a
-
-        >
-
-        <a title="spyxfamily" href="spyxfamily.html"
-
-          ><img srcset="spyxfamily.jpg" class="galeria__img" />
-
-          <h2 class="nombres">SpyxFamily #1</h2>
-
-          <</a
-
-        >
-
-      </div>
-
-    </main>
-
-  </body>
+  <main class="main">
+    <div class="banner"></div>
+    <div class="contenedor-galeria">
+      <a title="Komisan" href="Komi.html"><img srcset="Komisan.jpg" class="galeria__img" />
+        <h2 class="nombres">Komi can't comunicate #1</h2>
+      </a>
+      <a title="Nagatoro " href="Nagatoro.html"><img srcset="Nagatoro.jpg" class="galeria__img" />
+        <h2 class="nombres">Please Don't Bully me Nagatoro #9</h2>
+      </a>
+      <a title="Takagi" href="Takagi.html"><img srcset="Takagisan.jpg" class="galeria__img" />
+        <h2 class="nombres">Teasing Master Takagi-san #1</h2>
+      </a>
+      <a title="Kaguya" href="Kaguya.html"><img srcset="kaguya.jpg" class="galeria__img" />
+        <h2 class="nombres">Kaguya-sama: Love is war #18</h2>
+      </a>
+      <a title="Jojos" href="jojo.html"><img srcset="jojo.jpg" class="galeria__img" />
+        <h2 class="nombres">Jojo's Bizzarre adventure #9</h2>
+      </a>
+      <a title="spyxfamily" href="spyxfamily.html"><img srcset="spyxfamily.jpg" class="galeria__img" />
+        <h2 class="nombres">SpyxFamily #1</h2>
+      </a>
+    </div>
+  </main>
+  <script src="js/carrito.js"></script>
+</body>
 
 </html>
-
