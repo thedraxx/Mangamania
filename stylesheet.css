@@ -145,6 +145,45 @@ body {
     margin-bottom: 150px;
     margin-right: 70px;
   }
+  .opciones {
+    text-align: center;
+    align-items: center;
+  }
+  .img-carrito {
+    width: 25px;
+  }
+  .submenu {
+    position: relative;
+    margin: 20px;
+  }
+
+  /* carrito  */
+  .submenu #carrito {
+    display: none;
+    color: gray;
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+  }
+  .submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 10;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 100px;
+    min-width: 200px;
+    border-radius: 30px;
+    margin-left: -20px;
+    width: 50px;
+    margin-top: 1px;
+  }
+
+  #vaciar-carrito {
+    text-align: center;
+  }
 }
 
 .LOGO {
